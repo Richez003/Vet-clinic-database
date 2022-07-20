@@ -1,7 +1,7 @@
 # curriculum-databases-projects-template
 .
 ## ScreenShot of queries made
-![screenshot]('./images/Screeshot1.png)
+![screenshot]('./images/Screeshot1.png')
 ![screenshot](./images/Screenshot2.png)
 
 

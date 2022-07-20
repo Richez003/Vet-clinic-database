@@ -2,8 +2,8 @@
 .
 ## ScreenShot of queries made
 
-![screenshot]('./images/Screeshot1.png')
-![screenshot]('./images/Screenshot2.png')
+![screenshot](./images/Screeshot1.png)
+![screenshot](./images/Screenshot2.png)
 
 This repository includes files with plain SQL that can be used to recreate a database:
 

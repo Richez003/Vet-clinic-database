@@ -1,9 +1,4 @@
 # curriculum-databases-projects-template
-.
-## ScreenShot of queries made
-
-![screenshot](./images/screenshot1.png)
-![screenshot](./images/screenshot2.png)
 
 This repository includes files with plain SQL that can be used to recreate a database:
 

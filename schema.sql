@@ -25,9 +25,10 @@ ALTER TABLE animals ADD COLUMN INT;
 CREATE TABLE owners(
 full_name VARCHAR(100) NOT NULL,
 owners_id INT GENERATED ALWAYS AS IDENTITY,
+age INT,
 PRIMARY KEY(owners_id));
 
-alter table animals drop column owner_id;
+ALTER TABLE REMOVE species;
 alter table animals add species_id INT REFERENCES species(species_id);
 alter table animals add owner_id INT REFERENCES owners(owners_id);
 

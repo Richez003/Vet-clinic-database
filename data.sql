@@ -50,6 +50,9 @@ INSERT INTO owners (full_name, age) VALUES ('Dean Winchester', 14);
 INSERT 0 1
 INSERT INTO owners (full_name, age) VALUES ('Jodie Whittaker', 38);
 INSERT 0 1
+INSERT INTO owners (full_name, age) VALUES ('Sam Smith', 34);
+INSERT 0 1
+
 ALTER TABLE animals RENAME species TO species_id;
 
 UPDATE animals SET owner_id = 1 WHERE name = 'Agumon';

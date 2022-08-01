@@ -1,4 +1,5 @@
 /* Database schema to keep the structure of entire database. */
+CREATE DATABASE vet_clinic;
                                      ^
 CREATE TABLE animals (
  id BIGSERIAL NOT NULL PRIMARY KEY,
@@ -28,6 +29,9 @@ owners_id INT GENERATED ALWAYS AS IDENTITY,
 age INT,
 PRIMARY KEY(owners_id));
 
+ALTER TABLE owners ALTER COLUMN age DROP NOT NULL;
+
+
 ALTER TABLE REMOVE species;
 alter table animals add species_id INT REFERENCES species(species_id);
 alter table animals add owner_id INT REFERENCES owners(owners_id);
@@ -48,3 +52,6 @@ CREATE TABLE visits(
     animal_id INT REFERENCES animals(id),
     date_of_visit DATE NOT NULL
 );
+
+-- Add an email column to your owners table
+ALTER TABLE owners ADD COLUMN email VARCHAR(120);

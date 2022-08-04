@@ -13,7 +13,7 @@ This repository includes files with plain SQL that can be used to recreate a dat
 - DrawSQL
 
 ## Database Diagram
-![screenshot](./images/Screenshot1.png)
+![screenshot](./images/screenshot.png)
 ## Install
 
 To get a local copy up and running follow these simple example steps.

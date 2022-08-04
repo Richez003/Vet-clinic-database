@@ -8,6 +8,8 @@ CREATE TABLE animals (
  neutered BOOLEAN NOT NULL,
  escape_attempts INT NOT NULL,
  weight_kg DECIMAL NOT NULL);
+ species_id INT NOT NULL,
+ owner_id INT NOT NULL,
 
 /*species table*/
 CREATE TABLE species (
@@ -39,7 +41,7 @@ alter table animals add owner_id INT REFERENCES owners(owners_id);
  CREATE TABLE vets (
 id BIGSERIAL NOT NULL PRIMARY KEY,
 name VARCHAR(100) NOT NULL,
-INT NOT NULL,
+age INT NOT NULL,
 date_of_graduation DATE NOT NULL,
 
 CREATE TABLE specializations(

@@ -52,7 +52,7 @@ INSERT INTO owners (full_name, age) VALUES ('Jodie Whittaker', 38);
 INSERT 0 1
 INSERT INTO owners (full_name, age) VALUES ('Sam Smith', 34);
 INSERT 0 1
-
+schema_based_on_diagram.sql
 ALTER TABLE animals RENAME species TO species_id;
 
 UPDATE animals SET owner_id = 1 WHERE name = 'Agumon';

@@ -10,7 +10,10 @@ This repository includes files with plain SQL that can be used to recreate a dat
 ## Technologies used
 
 - PostgreSQL
+- DrawSQL
 
+## Database Diagram
+![screenshot](./images/screenshot.png)
 ## Install
 
 To get a local copy up and running follow these simple example steps.
